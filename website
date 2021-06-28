@@ -1,0 +1,203 @@
+//index.html
+<html>
+    <head>
+        <title>Small Project</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,400&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e90e064845.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div class="image-area">
+           
+            <div class="second-box">
+                <a class="link" href="home.html">Home</a>
+                <a class="link" href="about.html">about us</a>
+                <a class="link" href="#">Contact-us</a>
+                <a class="link" href="#">Exit</a>
+         </div>
+
+         <h1 class="sub">EvenzOne
+             EventManagement</h1>
+             <i class="fas fa-calendar-week fa-3x cal"></i>
+             <i class="fas fa-ring  fa-3x cal1"></i>
+             <i class="fab fa-accessible-icon fa-3x cal2"></i>
+
+        <h1 class="sub1">one Stop</h1><br>
+        <h1 class="sub2">Event Planner</h1>
+
+        <button type="button" class="btn">About us</button>
+        <button type="button" class="btn1 btn btn-outline-dark">Get started</button>
+        
+            <footer id="footer">
+
+                <i class="home1 fab fa-facebook fa-3x"></i>
+                <i class="home2 fab fa-instagram fa-3x"></i>
+                <i class="home3 fab fa-twitter fa-3x"></i>
+        
+            <p>@2021 Wedding plans</p>
+             </footer>
+        
+       </div>
+      </div>
+
+ </body>
+</html>
+
+//style.css
+
+.image-area{
+   background:url("https://thumbs.dreamstime.com/b/blue-background-faint-texture-distressed-vintage-grunge-spatter-pattern-193336410.jpg");
+   height: 110%;
+   width: 110%;
+   background-repeat: no-repeat;
+   background-size: 110% 110%;
+   
+}
+.link
+{
+    
+    color: #444444;
+    padding: 50px;
+    font-size: 50px;
+    font-family: 'Jomhuria', cursive;
+}
+
+.sub
+{
+    font-size: 30px;
+    color: #000;
+    margin-left: 1100px;
+    margin-right: 100px;
+    font-family: 'Dela Gothic One', cursive;
+    letter-spacing: 3px;
+    
+}
+.cal
+{
+    position: absolute;
+    color:#FFA900;
+    margin-left: 1100px;
+}
+.cal1
+{
+    position: absolute;
+    color:#FFA900;
+    margin-left: 1250px;
+}
+.cal2
+{
+    position: absolute;
+    color:#FFA900;
+    margin-left: 1400px;
+}
+.sub1
+{
+    color: #810000;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 130px;
+    margin-right: 200px;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 2px;
+}
+.sub2
+{
+    color: #810000;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 200px;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 2px;
+} 
+.btn {
+    background: #050504;
+    background-image: -webkit-linear-gradient(top, #050504, #141f11);
+    background-image: -moz-linear-gradient(top, #050504, #141f11);
+    background-image: -ms-linear-gradient(top, #050504, #141f11);
+    background-image: -o-linear-gradient(top, #050504, #141f11);
+    background-image: linear-gradient(to bottom, #050504, #141f11);
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration:none;
+    margin-left: 500px;
+
+  }
+  
+  .btn:hover {
+    background: #737b80;
+    background-image: -webkit-linear-gradient(top, #737b80, #d0dae0);
+    background-image: -moz-linear-gradient(top, #737b80, #d0dae0);
+    background-image: -ms-linear-gradient(top, #737b80, #d0dae0);
+    background-image: -o-linear-gradient(top, #737b80, #d0dae0);
+    background-image: linear-gradient(to bottom, #737b80, #d0dae0);
+    text-decoration: none;
+  }
+
+  .btn1 {
+    background: #050504;
+    background-image: -webkit-linear-gradient(top, #050504, #141f11);
+    background-image: -moz-linear-gradient(top, #050504, #141f11);
+    background-image: -ms-linear-gradient(top, #050504, #141f11);
+    background-image: -o-linear-gradient(top, #050504, #141f11);
+    background-image: linear-gradient(to bottom, #050504, #141f11);
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    border-radius: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration:none;
+    margin-left: 100px;
+
+  }
+  
+  .btn1:hover {
+    background: #737b80;
+    background-image: -webkit-linear-gradient(top, #737b80, #d0dae0);
+    background-image: -moz-linear-gradient(top, #737b80, #d0dae0);
+    background-image: -ms-linear-gradient(top, #737b80, #d0dae0);
+    background-image: -o-linear-gradient(top, #737b80, #d0dae0);
+    background-image: linear-gradient(to bottom, #737b80, #d0dae0);
+    text-decoration: none;
+  }
+
+  .home1
+  {
+      color: #000;
+      margin-top: 60px;
+      margin-left: 500px;
+  }
+  .home2
+  {
+      color: #000;
+      margin-top: 60px;
+      margin-left: 100px;
+  }
+  .home3
+  {
+      color: #000;
+      margin-top: 60px;
+      margin-left: 100px;
+  }
+  p
+  {
+      margin-bottom: 100px;
+      margin-left: 600px;
+  }
+
+
